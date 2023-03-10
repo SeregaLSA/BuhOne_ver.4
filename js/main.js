@@ -34,9 +34,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   new Swiper('.swiper', {
       navigation: {
-        nextEl: '.swiper-button-next',
+        nextEl: '.bt-slaider_first-right',
         prevEl: '.swiper-button-prev'
       },
+
+      pagination: {
+        el: '.swiper-pagination'
+      }
     });
   
   });
