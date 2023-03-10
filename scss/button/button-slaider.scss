@@ -1,0 +1,43 @@
+.bt-slaider {
+    width: 60px;
+    height: 60px;
+    @include elementCentred;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &_first-left {
+        background-color: rgba(255, 255, 255, 0.2);
+        
+        &:hover {
+            background-color: rgba(76, 184, 246, 0.5);
+        }
+    }
+
+    &_first-right {
+        background-color: rgba(255, 255, 255, 0.5);
+
+        &:hover {
+            background-color: rgba(76, 184, 246, 0.5);
+        }
+    }
+
+
+    &_riviews-left {
+        background-color: rgba(0, 95, 163, 0.2);
+        
+        &:hover {
+            background-color: rgba(4, 62, 96);
+        }
+    }
+
+    &_riviews-right {
+        background-color: rgba(0, 95, 163, 1);
+
+        &:hover {
+            background-color: rgb(4, 62, 96);
+        }
+    }
+
+
+}

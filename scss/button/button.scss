@@ -1,0 +1,17 @@
+.button {
+    width: 270px;
+    height: 60px;
+    background-color: $button-color;
+    color: $color-white;
+    font-size: 18px;
+    line-height: 138%;
+    @include elementCentred;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+        background-color: $color-button-active;
+    }
+
+}

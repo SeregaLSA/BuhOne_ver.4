@@ -1,0 +1,18 @@
+@mixin elementCentred {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin h2-style {
+    font-size: 24px;
+    font-weight: $extra-bold;
+    color: $h2-color;
+}
+
+@mixin title-2-style {
+    font-size: 48px;
+    line-height: 69px;
+    font-weight: $extra-bold;
+    color: #333333;
+}

@@ -1,0 +1,99 @@
+.riviews {
+    display: flex;
+    background-color: $color-fon2;
+    flex-direction: column;
+
+    &__title {
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+            padding: 140px 0 80px;
+        }
+    }
+
+    &__title2 {
+        @include title-2-style;
+    }
+
+    .riview {
+        display: flex;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            row-gap: 58px;
+            background-color: $color-fon;
+            padding: 45px 95px;
+        }
+
+        &__text {
+            font-size: 18px;
+            line-height: 138%;
+            font-weight: 300;
+            color: $color-black;
+        }
+
+
+        &__user {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 35px;
+
+            .user_data {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+            }
+
+            .user-name {
+                font-size: 18px;
+                font-weight: 900;
+                line-height: 25px;
+            }
+
+            .user-post {
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    &__slaider {
+        display: flex;
+        
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 50px 0;
+
+            .riviews__ellipse {
+                display: flex;
+                column-gap: 40px;
+                width: 10px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .riviews__slaider-button {
+                display: flex;
+                
+                .riviews__button_slaider {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+}
+
+/*
+@media (max-width: 700px) {
+    .riviews {
+
+    }
+} */

@@ -1,0 +1,22 @@
+.footer {
+    flex: 0 0 auto;
+    background-color: $color-fon;
+    padding: 50px 0 40px 0;
+    background-attachment: fixed;
+
+    .wrapper {
+        display: flex;
+        color: $color-black;
+        font-size: 14px;
+        line-height: 138%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 550px) {
+    .wrapper {
+        flex-direction: column-reverse;        
+        text-align: center;
+        row-gap: 30px;
+    }
+}
